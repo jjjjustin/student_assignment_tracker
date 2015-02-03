@@ -20,7 +20,7 @@ gem 'bootstrap-sass'
 
 gem 'rails_12factor'
 
-gem 'thin'
+gem 'puma'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
@@ -44,6 +44,7 @@ group :development, :test do
   gem 'byebug'
   gem 'faker'
   gem 'better_errors'
+  gem 'binding_of_caller'
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 
